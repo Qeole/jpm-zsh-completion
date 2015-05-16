@@ -10,13 +10,13 @@ Feedback and/or fixes are most welcome.
 
 ## Install
 
-Copy this file to any directory among those listed in `$fpath` environment variable.
+Copy this file to any directory among those listed in `$fpath` environment variable, and remove its extension (_i.e._ rename it as `_jpm`).
 
 For instance:
 ```bash
 $ git clone https://github.com/Qeole/jpm-zsh-completion.git
 $ cd jpm-zsh-completion
 
-$ cp _jpm $fpath[1]/
+$ cp _jpm.sh $fpath[1]/_jpm
 ```
 (You might need to add `sudo` before `cp`)
