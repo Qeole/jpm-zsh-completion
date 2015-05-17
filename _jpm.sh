@@ -1,5 +1,5 @@
 #compdef jpm
-# vim:se ts=2 sts=2 sw=2 et cc=80:
+# vim:se syn=zsh ts=2 sts=2 sw=2 et cc=80:
 
 emulate -LR zsh
 
@@ -143,8 +143,8 @@ Path=([^
 ]##|)/$match[2]})
   profiles=(${profiles%:})
   _alternative \
-    'profile:profile name:compadd $profiles' \
-    'file:path:_path_files -/'
+    'names:profile name:compadd $profiles' \
+    'files:path:_path_files -/'
 }
 
 # these options may be called anywhere, with any function
